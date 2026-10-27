@@ -353,6 +353,7 @@ document.getElementById('wipe').onclick=function(){if(!confirm('Delete ALL? Back
 document.getElementById('backupShortcut').onclick=function(){document.querySelector('[data-tab="settings"]').click();document.getElementById('bkOut').focus();};
 function updateLocalStatus(){var t=document.getElementById('localNoteText');if(t)t.textContent=navigator.onLine?'Your data is saved only on this device. Download a backup regularly.':'Offline — your data remains saved on this device.';document.getElementById('localNote').classList.toggle('offline',!navigator.onLine);}
 window.addEventListener('online',updateLocalStatus);window.addEventListener('offline',updateLocalStatus);updateLocalStatus();
+if('serviceWorker' in navigator){window.addEventListener('load',function(){navigator.serviceWorker.register('./service-worker.js').catch(function(){/* The app remains usable online if offline caching is unavailable. */});});}
 renderScan();renderProducts();renderHistory();renderInvoice();
 
 </script>

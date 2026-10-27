@@ -1,7 +1,7 @@
 {
-  "name": "Adult Play Store \u00b7 Scan & Invoice",
+  "name": "Adult Play Store · Scan & Invoice",
   "short_name": "APS Invoice",
-  "description": "Scan product barcodes and build cash invoices.",
+  "description": "Scan product barcodes and build cash invoices, offline.",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
