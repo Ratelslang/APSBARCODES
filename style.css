@@ -190,3 +190,5 @@ input,select,textarea{background:#151015;border-color:#40313e;border-radius:12px
 dialog{border-color:#55374d;box-shadow:0 26px 90px rgba(0,0,0,.48)}#toast{background:#f8eaf2;color:#291522;box-shadow:0 10px 35px rgba(0,0,0,.3)}
 @media(max-width:560px){main{padding:12px 12px 20px}.scan-intro{padding:19px 16px 15px;border-radius:17px}.scan-stats{gap:6px}.scan-stats div{padding:8px}.scan-stats span{font-size:9px}.scan-stats b{font-size:15px}.cam{aspect-ratio:4/3}.row.gap{gap:7px}.row.gap>.btn,.row.gap>label.btn{padding-left:11px;padding-right:11px;font-size:12.5px}.top{gap:8px}.top-logo{height:34px}.top-tot{font-size:14px;padding:6px 9px}.bar button{font-size:10px}.sum{gap:6px}.sum div{padding:9px 8px}.sum b{font-size:17px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important;animation:none!important}}
+
+.backup-card .hint{line-height:1.6}.backup-card .backup-warning{margin:12px 2px 3px;color:#e8b6cd}.backup-card .row{margin-top:10px}.backup-card input[type=file]{display:none}
